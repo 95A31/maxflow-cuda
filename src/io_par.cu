@@ -45,7 +45,7 @@ void readgraph(int V, int E, int source, int sink, int *cpu_height, int *cpu_exc
         cpu_rflowmtx[i] = 0;
     }
     // declaring file pointer to read edgelist
-    FILE *fp = fopen("edgelist.txt","r");
+    FILE *fp = fopen("edglelist-bipartite.txt","r");
 
     // declaring variables to read and store data from file
     char buf1[10],buf2[10],buf3[10];
